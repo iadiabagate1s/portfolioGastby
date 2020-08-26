@@ -1,0 +1,150 @@
+html{
+    background-color: rgb(255, 255, 255);
+    
+    
+}
+.divnav{
+    position: sticky;
+    margin-top: 3px;
+}
+.intro {
+    margin-top: 1.3rem;
+    height: 85vh;
+    width: 99vw;
+  
+    background-image: url(https://s3.amazonaws.com/creativity-post/uploads/_articleHeader/iStock-664373536.jpg);
+    /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  
+    opacity: 88%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#nav{
+    
+    text-decoration: none;
+    width: 99vw;
+    height: 8vh;
+    background-color: rgba(144, 192, 236, 0.637);
+    color: crimson;
+    position: sticky;
+    margin-bottom: 1.2rem;
+   
+}
+.nav-items{
+    font-size: .9rem;
+    font-weight: 800;
+    position: sticky;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.nav-item{
+    position: sticky;
+    color: crimson;
+}
+#text-1{
+    color: rgb(226, 210, 210);
+    text-align: center;
+    font-weight: 800;
+    -webkit-text-stroke-color: rgb(156, 14, 33);
+    -webkit-text-stroke-width: 2px;
+    
+    
+}
+#text-2{
+    color: rgb(211, 197, 197);
+    text-align: center; 
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 36px;
+    -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+    -webkit-text-stroke-width: 2.5px;
+    
+}
+#text-3{
+    text-align: center;
+    font-weight: 800;
+   font-size: 1.3rem;
+   color: rgb(211, 197, 197);
+   -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+    -webkit-text-stroke-width: 1.9px;
+}
+ul{
+    width: 100vw;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+li{
+   
+    text-align: center;
+    text-justify: distribute;
+    font-size: 15px;
+width: 30vw;
+height: 50px;
+margin-top: 30px;
+margin-right: 10px;
+display: inline-block;
+
+}
+.projects{
+    margin-top: 3rem;
+  
+    height: 25vh;
+  
+}
+#proj1{
+    margin-top: 3rem;
+    height: 25vh;
+    background-image: url('/icons/Screen Shot 2020-08-26 at 12.10.58 AM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#proj2{
+    margin-top: 3rem;
+    height: 25vh;
+    background-image: url('/icons/Screen Shot 2020-08-26 at 12.12.21 AM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#proj3{
+    margin-top: 3rem;
+    height: 25vh;
+    background-image: url('/icons/Screen Shot 2020-08-26 at 6.00.59 AM.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.links{
+    text-align: center;
+    display: inline;
+    margin: 0 5px;
+    
+}
+#aboutme{
+    margin: 1.8rem 2rem;
+    
+   
+}
+.sectitle{
+    
+    margin-right: 5.5rem;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: crimson;
+   -webkit-text-stroke-color:  rgba(144, 192, 236, 0.637);
+    -webkit-text-stroke-width: 2px;
+}
+.inforow{
+    margin-top: 20px;
+    color: crimson;
+    font-size: .9rem;
+    font-weight: 800;
+}
