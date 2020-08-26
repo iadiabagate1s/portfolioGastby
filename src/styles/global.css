@@ -1,10 +1,12 @@
+
+
 html{
     background-color: rgb(255, 255, 255);
     
     
 }
 .divnav{
-    position: sticky;
+ 
     margin-top: 3px;
 }
 .intro {
@@ -12,7 +14,7 @@ html{
     height: 85vh;
     width: 99vw;
   
-    background-image: url(https://s3.amazonaws.com/creativity-post/uploads/_articleHeader/iStock-664373536.jpg);
+    background-image: url('../../public/static/brainbg.jpg');
     /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
     background-repeat: no-repeat;
     background-size: contain;
@@ -33,19 +35,19 @@ html{
     height: 8vh;
     background-color: rgba(144, 192, 236, 0.637);
     color: crimson;
-    position: sticky;
     margin-bottom: 1.2rem;
    
 }
 .nav-items{
-    font-size: .9rem;
+    width: fit-content;
+    font-size: .8rem;
     font-weight: 800;
-    position: sticky;
+   
     line-height: 30px;
     margin-bottom: 10px;
 }
 .nav-item{
-    position: sticky;
+   
     color: crimson;
 }
 #text-1{
@@ -101,21 +103,21 @@ display: inline-block;
 #proj1{
     margin-top: 3rem;
     height: 25vh;
-    background-image: url('/icons/Screen Shot 2020-08-26 at 12.10.58 AM.png');
+    background-image: url('../../public/static/screenlab.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 #proj2{
     margin-top: 3rem;
     height: 25vh;
-    background-image: url('/icons/Screen Shot 2020-08-26 at 12.12.21 AM.png');
+    background-image: url('../../public/static/screennews.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 #proj3{
     margin-top: 3rem;
     height: 25vh;
-    background-image: url('/icons/Screen Shot 2020-08-26 at 6.00.59 AM.png');
+    background-image: url('../../public//static/screentrav.png');
     background-size: contain;
     background-repeat: no-repeat;
 
@@ -147,4 +149,44 @@ display: inline-block;
     color: crimson;
     font-size: .9rem;
     font-weight: 800;
+}
+.aboutme{
+    text-align: justify;
+}
+
+@media (max-width : 410px){
+    .divnav{
+ 
+        margin-top: 3px;
+        width: 99%;
+    }
+    #nav{
+    
+        text-decoration: none;
+        width: 99%;
+        height: 12vh;
+        background-color: rgba(144, 192, 236, 0.637);
+        color: crimson;
+        margin-bottom: .6rem;
+       
+    }
+
+
+
+
+    .nav-items{
+        width: fit-content;
+        font-size: .7rem;
+        font-weight: 700;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .nav-item{
+       
+        
+        color: crimson;
+    }
+
+
+
 }

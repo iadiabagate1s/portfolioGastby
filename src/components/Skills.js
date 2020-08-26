@@ -1,5 +1,11 @@
 
 import React from 'react'
+import js from '../../public/static/javascriptlogo.png'
+import ht from '../../public/static/htmlcsslogo.png'
+import node from '../../public/static/nodelogo.png'
+import python from '../../public/static/pypynew.jpg'
+import sq from '../../public/static/lp.jpeg'
+import react from '../../public/static/reactlogo.png'
 
 export default function Skills() {
     return (
@@ -8,18 +14,18 @@ export default function Skills() {
 
             <div style={{backgroundColor:"white"}}>
                 <ul>
-                    <li><img src='/icons/htmlcsslogo.png' height='110px' width='110px'/>
-                        HTML/CSS</li>
-                    <li><img src='/icons/javascriptlogo.png' height='110px' width='110px'/>
-                        JAVASCRIPT</li>
-                    <li><img src='/icons/nodelogo.png' height='110px' width='110px'/>
-                        NODE JS</li>
-                    <li style={{marginTop :'50px'}}><img src='/icons/pypynew.jpg' height='110px' width='110px'/>
-                        PYTHON</li>
-                    <li style={{marginTop :'30px'}}><img src='/icons/reactlogo.png' height='110px' width='110px'/>
-                        REACT</li>
-                    <li style={{marginTop :'50px'}}><img src='/icons/lp.jpeg' height='110px' width='110px'/>
-                        SQL</li>
+                    <li><img src={ht} height='110px' width='120px'/>
+                        </li>
+                    <li><img src={js} height='110px' width='110px'/>
+                        </li>
+                    <li><img src={node} height='110px' width='110px'/>
+                        </li>
+                    <li style={{marginTop :'50px'}}><img src={python} height='110px' width='110px'/>
+                        </li>
+                    <li style={{marginTop :'50px'}}><img src={react} height='110px' width='110px'/>
+                        </li>
+                    <li style={{marginTop :'50px'}}><img src={sq} height='110px' width='110px'/>
+                        </li>
 
                 </ul>
             </div>

@@ -1,11 +1,12 @@
 
 import React from 'react'
 import Nav from 'react-bootstrap/Nav'
+import Navbar from 'react-bootstrap/Navbar'
 
 export default function NavBar() {
     return (
         <div className='divnav'>
-          <Nav style={{
+          {/* <Nav style={{
             // textDecoration: 'none',
             // width: '99vw',
             // height: '10vh',
@@ -30,7 +31,23 @@ export default function NavBar() {
     <Nav.Link className="nav-item" eventKey="link-4" href='#contact'>Contact</Nav.Link>
     </Nav.Item>
     
-  </Nav>
+  </Nav> */}
+
+
+  <Navbar fixed='top' style={{backgroundColor: 'rgba(138, 171, 180, 0.637)'}} expand="lg">
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav   className="mr-auto">
+      <Nav.Link style={{color:'crimson', fontSize : '1.3rem'}} href="#home">Home</Nav.Link>
+      <Nav.Link style={{color:'crimson', fontSize : '1.3rem'}} href="#skills">Skills</Nav.Link>
+      <Nav.Link style={{color:'crimson', fontSize : '1.3rem'}} href="#projects">Projects</Nav.Link>
+      <Nav.Link style={{color:'crimson', fontSize : '1.3rem'}}href="#aboutme">About</Nav.Link>
+      <Nav.Link style={{color:'crimson', fontSize : '1.3rem'}}href="#Contact">Contact</Nav.Link>
+     
+    </Nav>
+    
+  </Navbar.Collapse>
+</Navbar>
   
  
             

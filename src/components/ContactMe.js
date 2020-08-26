@@ -2,6 +2,8 @@ import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
+import gitl from '../../public/static/github logo.png'
+import linked from '../../public/static/linked in logo.png'
 
 export default function ContactMe() {
     return (
@@ -17,8 +19,8 @@ export default function ContactMe() {
      
                
                 <Col className='inforow'>
-                <a href='https://www.linkedin.com/in/isaac-diabagate-5b1897173' style={{margin : '15px 50px'}}><img src='/icons/linked in logo.png' height='40px' width='40px'/></a>
-                <a href='https://github.com/iadiabagate1s' style={{margin : ''}}><img src='/icons/github logo.png' height='40px' width='40px'/></a>
+                <a href='https://www.linkedin.com/in/isaac-diabagate-5b1897173' style={{margin : '15px 50px'}}><img src={linked} height='40px' width='40px'/></a>
+                <a href='https://github.com/iadiabagate1s' style={{margin : ''}}><img src={gitl} height='40px' width='40px'/></a>
                  </Col>
 
             </Row>
