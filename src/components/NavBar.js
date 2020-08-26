@@ -34,7 +34,7 @@ export default function NavBar() {
   </Nav> */}
 
 
-  <Navbar fixed='top' style={{backgroundColor: 'rgba(138, 171, 180, 0.637)'}} expand="lg">
+  <Navbar fixed='top' style={{backgroundColor: ' rgba(144, 192, 236, 0.637)'}} expand="lg">
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav   className="mr-auto">

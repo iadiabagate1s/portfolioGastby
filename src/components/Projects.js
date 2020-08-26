@@ -2,7 +2,7 @@ import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Container from 'react-bootstrap/Container'
-import lab from '../../public/static/screenlab.png'
+
 
 export default function Projects() {
     return (
@@ -29,6 +29,7 @@ On the landing page a user can see several categories of featured events or sear
             </Row>
             
             </Container>
+           
         </div>
     )
 }

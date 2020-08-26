@@ -14,7 +14,7 @@ html{
     height: 85vh;
     width: 99vw;
   
-    background-image: url('../../public/static/brainbg.jpg');
+    background-image: url('../images/brainbg.jpg');
     /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
     background-repeat: no-repeat;
     background-size: contain;
@@ -103,21 +103,21 @@ display: inline-block;
 #proj1{
     margin-top: 3rem;
     height: 25vh;
-    background-image: url('../../public/static/screenlab.png');
+    background-image: url('../images/screenlab.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 #proj2{
     margin-top: 3rem;
     height: 25vh;
-    background-image: url('../../public/static/screennews.png');
+    background-image: url('../images/screennews.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
 #proj3{
     margin-top: 3rem;
     height: 25vh;
-    background-image: url('../../public/static/screentrav.png');
+    background-image: url('../images/screentrav.png');
     background-size: contain;
     background-repeat: no-repeat;
 

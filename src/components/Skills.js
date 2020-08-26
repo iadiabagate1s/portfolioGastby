@@ -1,13 +1,14 @@
 
 import React from 'react'
-import js from '../../public/static/javascriptlogo.png'
-import ht from '../../public/static/htmlcsslogo.png'
-import node from '../../public/static/nodelogo.png'
-import python from '../../public/static/pypynew.jpg'
-import sq from '../../public/static/lp.jpeg'
-import react from '../../public/static/reactlogo.png'
+import js from '../images/javascriptlogo.png'
+import ht from '../images/htmlcsslogo.png'
+import node from '../images/nodelogo.png'
+import python from '../images/pypynew.jpg'
+import sq from '../images/lp.jpeg'
+import react from '../images/reactlogo.png'
 
 export default function Skills() {
+    console.log(js)
     return (
         <div id='skills'>
             <h4 className='sectitle'>Top Skills</h4>
