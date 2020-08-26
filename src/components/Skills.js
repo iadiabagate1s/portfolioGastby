@@ -13,9 +13,9 @@ export default function Skills() {
         <div id='skills'>
             <h4 className='sectitle'>Top Skills</h4>
 
-            <div style={{backgroundColor:"white"}}>
+            <div style={{backgroundColor:"white", margin: 'auto'}}>
                 <ul>
-                    <li><img src={ht} height='110px' width='120px'/>
+                    <li style={{marginRight :''}}><img src={ht} height='110px' width='120px'/>
                         </li>
                     <li><img src={js} height='110px' width='110px'/>
                         </li>
@@ -30,7 +30,7 @@ export default function Skills() {
 
                 </ul>
             </div>
-
+            
 
             
         </div>

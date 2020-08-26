@@ -13,7 +13,6 @@ html{
     margin-top: 1.3rem;
     height: 85vh;
     width: 99vw;
-  
     background-image: url('../images/brainbg.jpg');
     /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
     background-repeat: no-repeat;
@@ -73,9 +72,9 @@ html{
     text-align: center;
     font-weight: 800;
    font-size: 1.3rem;
-   color: rgb(211, 197, 197);
-   -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
-    -webkit-text-stroke-width: 1.9px;
+   color: rgb(224, 28, 28);
+   /* -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+    -webkit-text-stroke-width: 1.9px; */
 }
 ul{
     width: 100vw;
@@ -186,7 +185,10 @@ display: inline-block;
         
         color: crimson;
     }
-
+li{
+    margin-right: 50px;
+    margin-left: 50px;
+}
 
 
 }
