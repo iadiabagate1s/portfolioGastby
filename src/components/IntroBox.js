@@ -2,7 +2,7 @@ import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Carousel from 'react-bootstrap/Carousel'
 import Container from 'react-bootstrap/Container'
-import bgpic from '../images/brainbg.jpg'
+import bgpic from '../images/brain2.jpg'
 
 export default function IntroBox() {
     return (
