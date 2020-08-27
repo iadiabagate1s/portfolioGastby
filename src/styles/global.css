@@ -200,3 +200,32 @@ li{
         margin-left: 2rem;
     }
 }
+@media (max-width : 460px ){
+    #text-1{
+   
+        color: rgb(226, 210, 210);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 800;
+        font-size: 3rem;
+        -webkit-text-stroke-color: rgb(156, 14, 33);
+        -webkit-text-stroke-width: 2px;
+        
+        
+    }
+    #text-2{
+        color: rgb(255, 255, 255);
+        font-size: 1.7rem;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        -webkit-text-stroke-color: rgba(0, 104, 165, 0.767);
+        -webkit-text-stroke-width: 2.5px;
+        
+    }
+    #text-3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 800;
+       font-size: 1rem;
+       color: rgb(255, 255, 255);
+       -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+        -webkit-text-stroke-width: 1.9px; 
+    }
+}
