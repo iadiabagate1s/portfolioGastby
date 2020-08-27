@@ -1,25 +1,41 @@
 
 
 html{
-    background-color: rgb(255, 255, 255);
-    
-    
-}
-.divnav{
- 
-    margin-top: 3px;
-}
-.intro {
-    margin-top: 1.3rem;
-    height: 85vh;
-    width: 99vw;
-    background-image: url('../images/brainbg.jpg');
+   
+     background-image: url('../images/brainbg.jpg');
     /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+    
+    
+}
+hr{
+    width: 78%;
+    margin-left: 35px;
+    height: 500px;
+    border: solid;
+    font-size: 50px;
+    font-weight: 100;
+    
+    color: aqua;
+    background-color: rgb(39, 187, 187);
+}
+.intro {
   
-    opacity: 88%;
+    height: 120vh;
+    width: 99%;
+    margin-left: .1rem;
+    margin-top: 4.5rem;
+    margin-bottom: 1rem;
+
+    /* background-image: url('../images/brainbg.jpg'); */
+    /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    opacity: 85%;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -27,54 +43,40 @@ html{
     
 }
 
-#nav{
+.text-container{
+  
+    height: 40vh;
+    width: 90% ;
+    margin-bottom: 1rem;
+    text-align: center;
     
-    text-decoration: none;
-    width: 99vw;
-    height: 8vh;
-    background-color: rgba(144, 192, 236, 0.637);
-    color: crimson;
-    margin-bottom: 1.2rem;
-   
-}
-.nav-items{
-    width: fit-content;
-    font-size: .8rem;
-    font-weight: 800;
-   
-    line-height: 30px;
-    margin-bottom: 10px;
-}
-.nav-item{
-   
-    color: crimson;
 }
 #text-1{
+   
     color: rgb(226, 210, 210);
-    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
+    font-size: 5rem;
     -webkit-text-stroke-color: rgb(156, 14, 33);
     -webkit-text-stroke-width: 2px;
     
     
 }
 #text-2{
-    color: rgb(211, 197, 197);
-    text-align: center; 
-    font-weight: 800;
-    font-size: 2rem;
-    line-height: 36px;
-    -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+    color: rgb(255, 255, 255);
+    font-size: 2.7rem;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke-color: rgba(0, 104, 165, 0.767);
     -webkit-text-stroke-width: 2.5px;
     
 }
 #text-3{
-    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
-   font-size: 1.3rem;
-   color: rgb(224, 28, 28);
-   /* -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
-    -webkit-text-stroke-width: 1.9px; */
+   font-size: 1.9rem;
+   color: rgb(255, 255, 255);
+   -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+    -webkit-text-stroke-width: 1.9px; 
 }
 ul{
     width: 100vw;
@@ -109,6 +111,7 @@ display: inline-block;
 #proj2{
     margin-top: 3rem;
     height: 25vh;
+    
     background-image: url('../images/screennews.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -126,10 +129,12 @@ display: inline-block;
     text-align: center;
     display: inline;
     margin: 0 5px;
+    font-size: 30px;
     
 }
 #aboutme{
-    margin: 1.8rem 2rem;
+    
+    width : 85%
     
    
 }
@@ -151,6 +156,10 @@ display: inline-block;
 }
 .aboutme{
     text-align: justify;
+    width: 80%;
+    margin-left: 6rem;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 @media (max-width : 410px){
@@ -169,26 +178,86 @@ display: inline-block;
         margin-bottom: .6rem;
        
     }
+   
 
 
 
 
-    .nav-items{
-        width: fit-content;
-        font-size: .7rem;
-        font-weight: 700;
-        line-height: 30px;
-        margin-bottom: 10px;
-    }
-    .nav-item{
-       
-        
-        color: crimson;
-    }
+  
 li{
     margin-right: 50px;
     margin-left: 50px;
 }
 
 
+}
+
+@media( max-width : 518px){
+    .intro {
+  
+        height: 45vh;
+        width: 99%;
+        margin-left: 1rem;
+        margin-top: 4.5rem;
+        margin-bottom: 4rem;
+  
+        background-image: url('../images/brainbg.jpg');
+        /* background-image: url(https://angelahuser.com/wp-content/uploads/2018/12/left-brain-right-brain.jpg); */
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+      
+        opacity: 85%;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .text-container{
+    
+        height: 30vh;
+        width: 94% ;
+        
+        margin-bottom:10rem;
+        text-align: center;
+        
+    }
+    #text-1{
+       
+        color: rgb(226, 210, 210);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        -webkit-text-stroke-color: rgb(156, 14, 33);
+        -webkit-text-stroke-width: 2px;
+        
+        
+    }
+    #text-2{
+        color: rgb(255, 255, 255);
+        font-size: 16px;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        -webkit-text-stroke-color: rgba(0, 104, 165, 0.767);
+        -webkit-text-stroke-width: 1.5px;
+        
+    }
+    #text-3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 600;
+       font-size: 15px;
+       color: rgb(255, 255, 255);
+       -webkit-text-stroke-color: rgba(23, 127, 187, 0.767);
+        -webkit-text-stroke-width: 1.9px; 
+    }
+
+}
+
+@media (max-width: 1100px){
+    .aboutme{
+        text-align: justify;
+        width: 80%;
+        margin-left: 2rem;
+    }
 }

@@ -12,6 +12,7 @@ export default function Skills() {
     return (
         <div id='skills'>
             <h4 className='sectitle'>Top Skills</h4>
+            <hr ></hr>
 
             <div style={{backgroundColor:"white", margin: 'auto'}}>
                 <ul>

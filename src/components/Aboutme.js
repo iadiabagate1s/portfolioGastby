@@ -2,8 +2,12 @@ import React from 'react'
 
 export default function Aboutme() {
     return (
+        <>
+        <h2 className='sectitle'>Who Am I</h2>
+        <hr ></hr>
         <div id='aboutme'>
-            <h2 className='sectitle'>Who Am I</h2>
+            
+            
 
             <div className='aboutme'>
                 <p>Isaac is a graduate with a STEM bachelor’s degree and extensive work as a software Engineer. Being able to combine his knowledge 
@@ -16,5 +20,6 @@ export default function Aboutme() {
                 </div>
             
         </div>
+        </>
     )
 }
