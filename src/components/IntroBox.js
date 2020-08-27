@@ -8,7 +8,6 @@ export default function IntroBox() {
     return (
 
 
-        <Container fluid>
         <div id='home'  className='intro'>
             <div style={{marginTop : '5rem'}} className='text-container'>
             <h5 id= 'text-1'>Hi Im Isaac, Full Stack Developer </h5>
@@ -22,6 +21,6 @@ export default function IntroBox() {
 
 
         </div>
-        </Container>
+       
     )
 }
