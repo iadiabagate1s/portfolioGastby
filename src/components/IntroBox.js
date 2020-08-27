@@ -9,7 +9,7 @@ export default function IntroBox() {
 
 
         <Container fluid>
-        <div id='home' style={{backgroundImage : `url(${bgpic})`}} className='intro'>
+        <div id='home'  className='intro'>
             <div style={{marginTop : '5rem'}} className='text-container'>
             <h5 id= 'text-1'>Hi Im Isaac, Full Stack Developer </h5>
             <h4 id='text-2'>Scientific Imagination Meets Aesthetic Imagination  </h4>
