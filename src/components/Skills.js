@@ -26,7 +26,7 @@ export default function Skills() {
                         </li>
                     <li style={{marginTop:'20px'}}><img src={python} height='110px' width='110px'/>
                         </li>
-                        <li style={{marginTop :''}}><img src={vue} height='110px' width='110px'/>
+                        <li style={{marginTop :'50px'}}><img src={vue} height='110px' width='110px'/>
                         </li>
                     <li style={{marginTop :'50px'}}><img src={react} height='110px' width='110px'/>
                         </li>
