@@ -6,6 +6,8 @@ import node from '../images/nodelogo.png'
 import python from '../images/pypynew.jpg'
 import sq from '../images/lp.jpeg'
 import react from '../images/reactlogo.png'
+import vue from '../images/vuejs-wide.png'
+import firebase from '../images/firebaselogo-standard.png'
 
 export default function Skills() {
     console.log(js)
@@ -22,11 +24,15 @@ export default function Skills() {
                         </li>
                     <li><img src={node} height='110px' width='110px'/>
                         </li>
-                    <li style={{marginTop :'50px'}}><img src={python} height='110px' width='110px'/>
+                    <li style={{marginTop:'20px'}}><img src={python} height='110px' width='110px'/>
+                        </li>
+                        <li style={{marginTop :''}}><img src={vue} height='110px' width='110px'/>
                         </li>
                     <li style={{marginTop :'50px'}}><img src={react} height='110px' width='110px'/>
                         </li>
                     <li style={{marginTop :'50px'}}><img src={sq} height='110px' width='110px'/>
+                        </li>
+                        <li style={{marginTop :'50px'}}><img src={firebase} height='110px' width='110px'/>
                         </li>
 
                 </ul>
