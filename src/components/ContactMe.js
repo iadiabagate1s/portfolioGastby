@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import gitl from '../images/github logo.png'
 import linked from '../images/linked in logo.png'
-import resume from '../images/IsaacDiabagate_Res_cover_Oct (2) copy.pdf'
+import resume from '../images/IsaacDiabagate_Res_cover.docx (1).pdf'
 
 export default function ContactMe() {
     return (

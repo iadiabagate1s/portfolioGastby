@@ -20,7 +20,7 @@ export default function Projects() {
                     Once they finish the current days workout they can click next and the following days workout is shown. All of their personal information, the plan they selected, and the daily progress they are making is saved to the cloud database. 
                 </p>
                 <p>This allows a user to sign in and sign out, leave the page and comeback with the ability to pick up where they left off every time. Whether if it's the next day or weeks later</p>
-                <Button onClick={() => window.open('https://amplifyeworkoutdemoapp.web.app/')} variant='outline-info' className='links'>Live </Button>  <Button onClick={() => window.open('https://github.com/iadiabagate1s/WorkoutApp')}  variant='outline-danger' className='links'>Code </Button>
+                {/* <Button onClick={() => window.open('https://amplifyeworkoutdemoapp.web.app/')} variant='outline-info' className='links'>Live </Button> */} <Button onClick={() => window.open('https://github.com/iadiabagate1s/WorkoutApp')}  variant='outline-danger' className='links'>Code </Button> 
                 </Col >
 
 
